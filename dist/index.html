@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="app.css" />
+<script src="app.js"></script>
+
+<div id="app">
+
+    <nav>
+        <a href="#/">home</a>
+        <a href="#/episodes">episodes</a>
+        <a href="#/counter">counter</a>
+        <a href="#/bindings">bindings</a>
+    </nav>
+
+    <div class="loader hidden">Loading...</div>
+
+    <div id="view">
+        <div class="view view-home hidden">
+            Hi there
+        </div>
+        <div class="view view-bindings hidden">
+            <div class="binding-examples"></div>
+        </div>
+        <div class="view view-episodes hidden">
+            <form class="search-form">
+                <input type="text" class="term">
+                <button class="submit">Search</button>
+            </form>
+            <table id="product-table">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="view view-counter hidden">
+            <div class="counter"></div>
+            <form class="counter-form">
+                <button class="btn btn-default">Increment</button>
+            </form>
+        </div>
+    </div>
+
+    <template id="product-row">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </template>
+</div>

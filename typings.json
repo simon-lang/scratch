@@ -1,0 +1,7 @@
+{
+  "globalDependencies": {
+    "jest": "registry:dt/jest#19.2.0+20170312200138",
+    "pug": "registry:dt/pug#2.0.0+20161229235626",
+    "redux": "registry:dt/redux#3.5.2+20160703092728"
+  }
+}
